@@ -1,6 +1,7 @@
 @media screen and (max-width: 1160px) and (min-width: 768px) {
   .container {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1160px;
   }
 }
 
@@ -8,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -20,13 +21,13 @@
   }
 
   .lessons .col {
-    min-width: 100%;
+    width: 100%;
   }
 
   .steps .col {
-    min-width: 100%;
+    width: 100%;
   }
   .why-us .col {
-    min-width: 100%;
+    width: 100%;
   }
 }
