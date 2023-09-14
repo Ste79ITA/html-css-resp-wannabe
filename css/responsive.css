@@ -1,0 +1,32 @@
+@media screen and (max-width: 1160px) and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .lessons .col {
+    min-width: 100%;
+  }
+
+  .steps .col {
+    min-width: 100%;
+  }
+  .why-us .col {
+    min-width: 100%;
+  }
+}
